@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeCalculator", "..\..\Applications\RecipeCalculator\RecipeCalculator.csproj", "{7DB6CA5D-3747-47EC-88AC-A6B6769E16AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeCalculator.Models", "..\..\Libraries\RecipeCalculator.Models\RecipeCalculator.Models.csproj", "{71E5B2E8-BCC5-4292-9376-9467D6B9D264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeCalculator.Services", "..\..\Libraries\RecipeCalculator.Services\RecipeCalculator.Services.csproj", "{B18F182D-125A-48D0-AF6F-B40740FBFD54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeCalculator.Persistence", "..\..\Libraries\RecipeCalculator.Persistence\RecipeCalculator.Persistence.csproj", "{D3616C9C-D494-4C03-8DEE-6AEC605E9B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipeCalculatorUnitTesting", "..\..\Test Suites\RecipeCalculatorUnitTesting\RecipeCalculatorUnitTesting.csproj", "{C79DD325-1161-4E06-A4E4-82D769D42820}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DB6CA5D-3747-47EC-88AC-A6B6769E16AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB6CA5D-3747-47EC-88AC-A6B6769E16AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB6CA5D-3747-47EC-88AC-A6B6769E16AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB6CA5D-3747-47EC-88AC-A6B6769E16AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E5B2E8-BCC5-4292-9376-9467D6B9D264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E5B2E8-BCC5-4292-9376-9467D6B9D264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E5B2E8-BCC5-4292-9376-9467D6B9D264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E5B2E8-BCC5-4292-9376-9467D6B9D264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18F182D-125A-48D0-AF6F-B40740FBFD54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18F182D-125A-48D0-AF6F-B40740FBFD54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18F182D-125A-48D0-AF6F-B40740FBFD54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18F182D-125A-48D0-AF6F-B40740FBFD54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3616C9C-D494-4C03-8DEE-6AEC605E9B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3616C9C-D494-4C03-8DEE-6AEC605E9B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3616C9C-D494-4C03-8DEE-6AEC605E9B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3616C9C-D494-4C03-8DEE-6AEC605E9B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C79DD325-1161-4E06-A4E4-82D769D42820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79DD325-1161-4E06-A4E4-82D769D42820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79DD325-1161-4E06-A4E4-82D769D42820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79DD325-1161-4E06-A4E4-82D769D42820}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

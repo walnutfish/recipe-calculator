@@ -18,8 +18,6 @@ namespace RecipeCalculator
 
         static void Main(string[] args)
         {
-            args = new List<string>() { "-i", @"c:\ingredients.txt", "-r", @"c:\recipe2.txt" }.ToArray();
-
             if (ParseCommandArguments(args))
             {
                 if (File.Exists(_ingredientsFile) && File.Exists(_recipeFile))
